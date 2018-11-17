@@ -1,0 +1,16 @@
+nov 15, 2018 4:49:59 PM jpamato.MailCron main
+INFORMACIÓN: Log file begin...
+nov 15, 2018 4:49:59 PM jpamato.MailCron start
+INFORMACIÓN: Starting cron alarm
+nov 15, 2018 4:50:04 PM jpamato.MailCron checkUnsend
+INFORMACIÓN: 1 unsend files
+nov 15, 2018 4:50:21 PM jpamato.MailCron checkUnsend
+INFORMACIÓN: Sending file: pontura@gmail.com.png
+nov 15, 2018 4:50:21 PM jpamato.MailCron checkUnsend
+INFORMACIÓN: pontura@gmail.com.png deleted
+nov 15, 2018 4:50:21 PM jpamato.MailCron checkUnsend
+INFORMACIÓN: 0 unsend files
+nov 15, 2018 4:50:26 PM jpamato.MailCron checkUnsend
+INFORMACIÓN: 0 unsend files
+nov 15, 2018 4:50:31 PM jpamato.MailCron checkUnsend
+INFORMACIÓN: 0 unsend files
