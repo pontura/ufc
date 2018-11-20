@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class UIEnterZone : UIScreen {
 
+	bool started;
 	void OnUserStatus(bool isInZone)
 	{
 		if (isInZone) {
@@ -13,11 +14,13 @@ public class UIEnterZone : UIScreen {
 		}
 	}
 	public override void Init(){
-		print ("______init UIEnterZone" );
+		if (started)
+			return;
+		started = true;
 		Events.OnUserStatus += OnUserStatus;
 	}
 	public override void SetOff(){
-		print ("________SetOff UIEnterZone" );
+		started = false;
 		Events.OnUserStatus -= OnUserStatus;
 	}
 }
